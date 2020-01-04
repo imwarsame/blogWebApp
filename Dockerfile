@@ -1,6 +1,6 @@
 FROM python:3
 
-MAINTAINER daniel@federschmidt.xyz
+MAINTAINER imwarsame
 
 COPY . /app
 WORKDIR /app
