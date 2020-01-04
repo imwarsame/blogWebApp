@@ -8,7 +8,7 @@
                 <div class="form-group">
                     <!--form.username.label will print out label from username field-->
                     <!--can also give the label html property some bootstrap css-->
-                    {{ form.username.label(class="form-control-label") }}  
+                    {{ form.username.label(class="form-control-label") }}
                     {% if form.username.errors %}
                         {{ form.username(class="form-control form-control-lg is-invalid") }}
                             <div class="invalid-feedback">
@@ -73,7 +73,7 @@
     </div>
     <div clas="border-top pt-3">
         <small class="text-muted">
-            Already Have An Account? <a class="ml-2" href="{{ url_for('login') }}">Login</a>
+            Already Have An Account? <a class="ml-2" href="{{ url_for('users.login') }}">Login</a>
         </small>
     </div>
 {% endblock content %}
