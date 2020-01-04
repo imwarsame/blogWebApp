@@ -3,7 +3,6 @@ import os
 
 
 class Config:
-    DEBUG = True
     SECRET_KEY = os.urandom(32)
     SECRET_KEY = SECRET_KEY
     SQLALCHEMY_DATABASE_URI = os.getenv("SQLALCHEMY_DATABASE_URI")
