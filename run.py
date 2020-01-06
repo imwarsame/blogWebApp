@@ -7,4 +7,4 @@ app = create_app()
 __name__ == __main__ is only true when we run flaskblog.py script directly.
 """
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0")
